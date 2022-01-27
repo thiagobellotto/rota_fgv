@@ -9,7 +9,7 @@ frame = '''<iframe title="Rota_2030_v2" width="800" height="486" src="https://ap
 
 footer="""<style>
 a:link , a:visited{
-color: blue;
+color: black;
 background-color: transparent;
 text-decoration: underline;
 }
@@ -24,12 +24,12 @@ left: 0;
 bottom: 0;
 width: 100%;
 background-color: transparent;
-color: white;
+color: black;
 text-align: center;
 }
 </style>
 <div class="footer">
-<p>Developed by <a style='display: block; color: white; text-align: center;' href="https://www.linkedin.com/in/thiago-bellotto/" target="_blank">Thiago Bellotto</a></p>
+<p>Developed by <a style='display: block; color: black; text-align: center;' href="https://www.linkedin.com/in/thiago-bellotto/" target="_blank">Thiago Bellotto</a></p>
 </div>
 """
 st.markdown(footer, unsafe_allow_html=True)
