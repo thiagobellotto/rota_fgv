@@ -5,7 +5,7 @@ st.set_page_config(page_title="Rota 2030 - FGV",
 
 st.title("Rota 2030 - FGV")
 
-frame = '''<iframe title="Rota_2030_v3 - Parte 1 - Preferencias" width="1024" height="612" src="https://app.powerbi.com/view?r=eyJrIjoiMDBkYjIxNDktZjU0My00NTdiLTk4MTEtMjY3M2Q2YWU0MGZmIiwidCI6ImQ2MzljZTdiLTBiNjUtNGJmOS1iNTk2LTllYzI2OWM1OTYxOSJ9" frameborder="0" allowFullScreen="true"></iframe>'''
+frame = '''<iframe title="Rota_2030_v3" width="1024" height="612" src="https://app.powerbi.com/view?r=eyJrIjoiMDBkYjIxNDktZjU0My00NTdiLTk4MTEtMjY3M2Q2YWU0MGZmIiwidCI6ImQ2MzljZTdiLTBiNjUtNGJmOS1iNTk2LTllYzI2OWM1OTYxOSJ9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>'''
 
 footer="""<style>
 a:link , a:visited{
