@@ -43,7 +43,7 @@ grafico_1 = '''<iframe title="fase2- grafico1-final" width="1024" height="612" s
 st.markdown(grafico_1, unsafe_allow_html=True)
 
 st.subheader("Desempenho em todos os atributos por ferramentaria")
-grafico_2 = '''<iframe title="fase2-grafico2-final" width="1024" height="612" src="https://app.powerbi.com/view?r=eyJrIjoiMmRmNTZkYWUtMzM5MC00YTc3LTliZTItY2I0ZTJlODYxM2M2IiwidCI6ImQ2MzljZTdiLTBiNjUtNGJmOS1iNTk2LTllYzI2OWM1OTYxOSJ9&pageName=ReportSectiona39ac7872978bc775d4c" frameborder="0" allowFullScreen="true"></iframe>'''
+grafico_2 = '''<iframe title="fase2-grafico2-final" width="1024" height="612" src="https://app.powerbi.com/view?r=eyJrIjoiMmRmNTZkYWUtMzM5MC00YTc3LTliZTItY2I0ZTJlODYxM2M2IiwidCI6ImQ2MzljZTdiLTBiNjUtNGJmOS1iNTk2LTllYzI2OWM1OTYxOSJ9&pageName=ReportSectione2c8fc1aa6068029d50d" frameborder="0" allowFullScreen="true"></iframe>'''
 st.markdown(grafico_2, unsafe_allow_html=True)
 
 st.subheader("Desempenho em todos as ferramentarias por atributo")
