@@ -39,7 +39,7 @@ footer {visibility: hidden;}
 
 # display an embeddded from power bi
 st.subheader("Matriz Importância X Desempenho")
-grafico_1 = '''<iframe title="fase2- grafico1-final" width="1024" height="612" src="https://app.powerbi.com/view?r=eyJrIjoiYTU5YWE4ZTAtMDY0MS00Njc4LTgxYTYtNjEwMjA3ZGFhYzc4IiwidCI6ImQ2MzljZTdiLTBiNjUtNGJmOS1iNTk2LTllYzI2OWM1OTYxOSJ9&pageName=ReportSection4002c908007b02add658" frameborder="0" allowFullScreen="true"></iframe>'''
+grafico_1 = '''<iframe title="fase2-grafico1-final" width="1024" height="612" src="https://app.powerbi.com/view?r=eyJrIjoiYTU5YWE4ZTAtMDY0MS00Njc4LTgxYTYtNjEwMjA3ZGFhYzc4IiwidCI6ImQ2MzljZTdiLTBiNjUtNGJmOS1iNTk2LTllYzI2OWM1OTYxOSJ9&pageName=ReportSection4002c908007b02add658" frameborder="0" allowFullScreen="true"></iframe>'''
 st.markdown(grafico_1, unsafe_allow_html=True)
 
 st.subheader("Desempenho em todos os atributos por ferramentaria")
