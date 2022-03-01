@@ -1,11 +1,14 @@
 import streamlit as st
-st.set_page_config(page_title="Rota 2030 - FGV", 
+
+st.set_page_config(
+    page_title="Rota 2030 - FGV",
     page_icon="https://logodownload.org/wp-content/uploads/2016/09/fgv-logo-0.png",
-    layout="centered")
+    layout="centered",
+)
 
 st.title("Rota 2030 - FGV - Fase 2")
 
-footer="""<style>
+footer = """<style>
 a:link , a:visited{
 color: black;
 background-color: transparent;
@@ -32,20 +35,23 @@ text-align: center;
 """
 
 st.markdown(footer, unsafe_allow_html=True)
-st.markdown(""" <style>
+st.markdown(
+    """ <style>
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
-</style> """, unsafe_allow_html=True)
+</style> """,
+    unsafe_allow_html=True,
+)
 
 # display an embeddded from power bi
 st.subheader("Matriz Importância X Desempenho")
-grafico_1 = '''<iframe title="fase2-grafico1-final" width="1024" height="612" src="https://app.powerbi.com/view?r=eyJrIjoiYTU5YWE4ZTAtMDY0MS00Njc4LTgxYTYtNjEwMjA3ZGFhYzc4IiwidCI6ImQ2MzljZTdiLTBiNjUtNGJmOS1iNTk2LTllYzI2OWM1OTYxOSJ9&pageName=ReportSection4002c908007b02add658" frameborder="0" allowFullScreen="true"></iframe>'''
+grafico_1 = """<iframe title="fase2-grafico1-final - FASE 2" width="1024" height="612" src="https://app.powerbi.com/view?r=eyJrIjoiYTVmODU3NzYtNWRhYi00YWZjLThhNGEtODk1OTY5YTlhZDRlIiwidCI6ImQ2MzljZTdiLTBiNjUtNGJmOS1iNTk2LTllYzI2OWM1OTYxOSJ9" frameborder="0" allowFullScreen="true"></iframe>"""
 st.markdown(grafico_1, unsafe_allow_html=True)
 
 st.subheader("Desempenho em todos os atributos por ferramentaria")
-grafico_2 = '''<iframe title="fase2-grafico2-final" width="1024" height="612" src="https://app.powerbi.com/view?r=eyJrIjoiMmRmNTZkYWUtMzM5MC00YTc3LTliZTItY2I0ZTJlODYxM2M2IiwidCI6ImQ2MzljZTdiLTBiNjUtNGJmOS1iNTk2LTllYzI2OWM1OTYxOSJ9&pageName=ReportSectione2c8fc1aa6068029d50d" frameborder="0" allowFullScreen="true"></iframe>'''
+grafico_2 = """<iframe title="fase2-grafico2-final - Resp. por ferramentarias" width="1024" height="612" src="https://app.powerbi.com/view?r=eyJrIjoiNTQ1ZWYzNmMtY2Q3OC00ODg5LTkzYWMtNDY2OGViYTc0ZGUwIiwidCI6ImQ2MzljZTdiLTBiNjUtNGJmOS1iNTk2LTllYzI2OWM1OTYxOSJ9" frameborder="0" allowFullScreen="true"></iframe>"""
 st.markdown(grafico_2, unsafe_allow_html=True)
 
 st.subheader("Desempenho em todos as ferramentarias por atributo")
-grafico_3 = '''<iframe title="fase2-grafico3-final" width="1024" height="612" src="https://app.powerbi.com/view?r=eyJrIjoiZGM0ZTE3Y2MtN2JmZS00Y2ZkLTk5MjMtMzY2YzljOWU5YjQzIiwidCI6ImQ2MzljZTdiLTBiNjUtNGJmOS1iNTk2LTllYzI2OWM1OTYxOSJ9&pageName=ReportSection57869b2859ac5e89e618" frameborder="0" allowFullScreen="true"></iframe>'''
+grafico_3 = """<iframe title="fase2-grafico3-final" width="1024" height="612" src="https://app.powerbi.com/view?r=eyJrIjoiZGM0ZTE3Y2MtN2JmZS00Y2ZkLTk5MjMtMzY2YzljOWU5YjQzIiwidCI6ImQ2MzljZTdiLTBiNjUtNGJmOS1iNTk2LTllYzI2OWM1OTYxOSJ9&pageName=ReportSection57869b2859ac5e89e618" frameborder="0" allowFullScreen="true"></iframe>"""
 st.markdown(grafico_3, unsafe_allow_html=True)
