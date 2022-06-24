@@ -6,7 +6,7 @@ st.set_page_config(
     layout="centered",
 )
 
-st.title("Rota 2030 - FGV - Fase 2")
+st.title("Rota 2030 - FGV")
 
 footer = """<style>
 a:link , a:visited{
@@ -47,7 +47,6 @@ width = 1200
 height = 750
 
 # display an embeddded from power bi
-st.subheader("Matriz Importância X Desempenho")
 url = f''
 grafico = f"""{url}"""
 st.markdown(grafico, unsafe_allow_html=True)
