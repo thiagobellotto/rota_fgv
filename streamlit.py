@@ -48,16 +48,6 @@ height = 750
 
 # display an embeddded from power bi
 st.subheader("Matriz Importância X Desempenho")
-url_1 = f'<iframe title="fase2-grafico1-final" width="{width}" height="{height}" src="https://app.powerbi.com/view?r=eyJrIjoiYTVmODU3NzYtNWRhYi00YWZjLThhNGEtODk1OTY5YTlhZDRlIiwidCI6ImQ2MzljZTdiLTBiNjUtNGJmOS1iNTk2LTllYzI2OWM1OTYxOSJ9&pageName=ReportSection4002c908007b02add658" frameborder="0" allowFullScreen="true"></iframe>'
-grafico_1 = f"""{url_1}"""
-st.markdown(grafico_1, unsafe_allow_html=True)
-
-st.subheader("Desempenho em todos os atributos por ferramentaria")
-url_2 = f'<iframe title="fase2-grafico2-final" width="{width}" height="{height}" src="https://app.powerbi.com/view?r=eyJrIjoiNTQ1ZWYzNmMtY2Q3OC00ODg5LTkzYWMtNDY2OGViYTc0ZGUwIiwidCI6ImQ2MzljZTdiLTBiNjUtNGJmOS1iNTk2LTllYzI2OWM1OTYxOSJ9&pageName=ReportSectionbd98154115c8c014dd88" frameborder="0" allowFullScreen="true"></iframe>'
-grafico_2 = f"""{url_2}"""
-st.markdown(grafico_2, unsafe_allow_html=True)
-
-st.subheader("Desempenho em todos as ferramentarias por atributo")
-url_3 = f'<iframe title="fase2-grafico3-final" width="{width}" height="{height}" src="https://app.powerbi.com/view?r=eyJrIjoiZGM0ZTE3Y2MtN2JmZS00Y2ZkLTk5MjMtMzY2YzljOWU5YjQzIiwidCI6ImQ2MzljZTdiLTBiNjUtNGJmOS1iNTk2LTllYzI2OWM1OTYxOSJ9&pageName=ReportSection57869b2859ac5e89e618" frameborder="0" allowFullScreen="true"></iframe>'
-grafico_3 = f"""{url_3}"""
-st.markdown(grafico_3, unsafe_allow_html=True)
+url = f''
+grafico = f"""{url}"""
+st.markdown(grafico, unsafe_allow_html=True)
