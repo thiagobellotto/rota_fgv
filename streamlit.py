@@ -47,6 +47,6 @@ width = 1200
 height = 750
 
 # display an embeddded from power bi
-url = f''
+url = f'<iframe title="Rota_2030_v3" width="{width}" height="{height}" src="https://app.powerbi.com/view?r=eyJrIjoiMDBkYjIxNDktZjU0My00NTdiLTk4MTEtMjY3M2Q2YWU0MGZmIiwidCI6ImQ2MzljZTdiLTBiNjUtNGJmOS1iNTk2LTllYzI2OWM1OTYxOSJ9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>'
 grafico = f"""{url}"""
 st.markdown(grafico, unsafe_allow_html=True)
