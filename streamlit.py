@@ -46,7 +46,7 @@ footer {visibility: hidden;}
 width = 1200
 height = 750
 
-# display an embeddded from power bi
-url = f'<iframe title="Rota_2030_v3" width="{width}" height="{height}" src="https://app.powerbi.com/view?r=eyJrIjoiMDBkYjIxNDktZjU0My00NTdiLTk4MTEtMjY3M2Q2YWU0MGZmIiwidCI6ImQ2MzljZTdiLTBiNjUtNGJmOS1iNTk2LTllYzI2OWM1OTYxOSJ9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>'
+# display an embeddded from power bi 
+url = f'<iframe style="position:absolute; height:100%; width:100%; border: none" title="Rota_2030_v3_Gráfico_1" width="{width}" height="{height}" src="https://app.powerbi.com/view?r=eyJrIjoiOTYyMjNlYTgtYTMwNi00MTJjLTkxM2MtNjFmNDU1ZTMzZDlmIiwidCI6Ijc5ZjZiNjM5LWFiMTItNDI4MC04MDc3LWJkYmVlZjg2OWIzMyIsImMiOjR9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>'
 grafico = f"""{url}"""
 st.markdown(grafico, unsafe_allow_html=True)
